@@ -63,3 +63,15 @@ input {
     font-family: 'Roboto';
     border-radius: 8px;
 }
+
+@media only screen and (min-width: 768px) {
+    main {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    gap: 400px;
+    height: 1000px;
+    width: 600px;
+    margin: 32px auto;
+}
+}
