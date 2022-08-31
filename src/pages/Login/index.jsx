@@ -1,14 +1,18 @@
 import React from 'react';
 import NavBar from "../../components/Navbar/index";
+import { useNavigate } from "react-router-dom";
 import './Login.css';
 
 const Login = () => {
+
+   
+
   return (
     <>
-      <NavBar />
+      <NavBar signUp={"SIGN UP"}/>
       <main>
         <div>
-          <h1>LOG IN</h1>
+          <h1 >LOGIN IN</h1>
           <form>
             <input
               className="email"

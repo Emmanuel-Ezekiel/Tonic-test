@@ -13,12 +13,13 @@ h1 {
     font-weight: medium;
     color: #fff;
     margin: 32px;
+    cursor: pointer;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
     width: 536px;
     height: 122px;
     margin: 0px 32px;
@@ -32,6 +33,7 @@ input {
    background-color: #000;
    color: #999999;
    font-family: 'Roboto';
+   padding: 10px;
 
 }
 
@@ -52,6 +54,7 @@ input {
     color: #fff;
     font-size: 16px;
     font-family: 'Roboto';
+     cursor: pointer;
 }
 
 .L-btn {
@@ -62,6 +65,7 @@ input {
     font-size: 16px;
     font-family: 'Roboto';
     border-radius: 8px;
+    cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {

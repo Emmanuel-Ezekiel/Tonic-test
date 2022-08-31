@@ -33,6 +33,7 @@
     font-size: 13px;
     font-weight: 300;
     margin-right: 32px;
+    cursor: pointer;
   }
 }
 
@@ -67,5 +68,6 @@
     font-size: 13px;
     font-weight: 300;
     margin-right: 32px;
+     cursor: pointer;
   }
 
