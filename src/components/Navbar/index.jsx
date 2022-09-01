@@ -1,24 +1,23 @@
 import React from 'react';
-import './style.css';
-import { useNavigate } from "react-router-dom";
+import styles from "./style.module.css";
+import ImageLogo from "../../assets/Logo.svg";
 
-
-const Navbar = (props) => {
-
-   const navigate = useNavigate();
-
-   const _signUp = () => {
-     navigate("signup");
-   };
-
+const Navbar = () => {
   return (
     <>
       <header>
-        <nav>
-          <div className="work-head">
-            <span className="work">Work</span>Alert
+        <nav className={styles.nav}>
+          <div className={styles.logo}>
+            <img src={ImageLogo} alt="imageLogo" className={styles.img} />
           </div>
-          <button className="signUp" onClick={() => {_signUp()}}>{props.signUp}</button>
+          <div className={styles.navigation}>
+            <span>Products</span>
+            <span>Services</span>
+            <span>About</span>
+            <div className={styles.login}>
+              <span>Login</span>
+            </div>
+          </div>
         </nav>
       </header>
     </>
