@@ -110,7 +110,7 @@ section {
     margin: 677px 140px 76px 41px;
     display: flex;
     align-items: center;
-    gap: 51px;
+    gap: 57px;
     overflow: hidden;
 }
 
@@ -118,7 +118,7 @@ section {
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 56px;
 }
 
 .Logo img {
