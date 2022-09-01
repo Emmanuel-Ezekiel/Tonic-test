@@ -1,0 +1,99 @@
+.services {
+    width: 100vw;
+    height: 926px;
+    background: #0A2640;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.ServiceHeader {
+    width: 842px;
+    height: 184px;
+    margin: 84px 284px 0 279px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+}
+
+.ServiceTextHeading {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #F1F1F1;
+}
+
+.ServiceText {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.servicesContainer {
+    height: 503px;
+    width: 1099px;
+    margin: 70px 150px 99px 156px;
+    display: flex;
+    gap: 99px;
+}
+.servicesCon {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 300px;
+    height: 487px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.container img {
+    width: 300px;
+    height: 354px;
+    border-radius: 24px;
+}
+.container span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+
+.explore {
+    width: 164px;
+    height: 36px;
+    border-bottom: 1px solid  #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 5px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+
+.explore span {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 36px;
+     margin-top: 0;
+}
+
+.arrow {
+    font-size: 20px;
+    color:  #FFFFFF;
+}

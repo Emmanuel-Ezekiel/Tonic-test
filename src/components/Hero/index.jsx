@@ -7,7 +7,6 @@ import { Data } from "./Data";
 
 const Hero  = () => {
 
-  console.log("here", Data)
   return (
     <>
       <section className={styles.section}>
@@ -38,8 +37,8 @@ const Hero  = () => {
         <div className={styles.sponsLogo}>
           {Data.map((item) => (
             <div key={item.id} className={styles.Logo}>
-              <img src={item.image} alt="" />
-              <img src={item.image2} alt="" />
+              <img src={item.image} alt="logo" />
+              <img src={item.image2} alt="logo" />
             </div>
           ))}
         </div>
