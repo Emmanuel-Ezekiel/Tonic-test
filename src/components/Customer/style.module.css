@@ -1,0 +1,144 @@
+.customer {
+    width: 100vw;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+}
+
+.container {
+    width: 1147px;
+    height: 610px;
+    margin: 120px 101px 0 112px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.con {
+    position: relative; 
+}
+
+
+.ImageCon img {
+    height: 506px;
+    width: 494px;
+    border-radius: 24px;
+}
+
+.ChartCon {
+    position: absolute;
+    width: 251px;
+    height: 388px;
+    left: 38%;
+    top: 37%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+}
+
+.Chart {
+    width: 171px;
+    height: 308px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.ChartFlow {
+    height: 227px;
+    width: 170px;
+}
+
+.ChartFlow img {
+    width: 100%;
+    height: 100%;
+}
+
+.ChartGroup {
+    width: 150.73px;
+    height: 61.8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.ChartNum {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0A2640;
+}
+
+.ChartText {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0A2640;
+}
+
+.CustomerDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 56px;
+    width: 493px;
+    height: 479px;
+    margin-top: 62px;
+}
+
+.content {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.ContentMark {
+    width: 493px;
+    height: 159px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ContentMark span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.checkText {
+    display: flex;
+    gap: 27px;
+    align-items: center;
+}
+
+.check {
+    width: 36px;
+    height: 36px;
+}
+
+.Btn {
+    height: 60px;
+    width: 210px;
+    border-radius: 56px;
+    padding: 16px 56px 16px 56px;
+    background: #0A2640;
+    border: 2px solid #0A2640;
+    border-radius: 56px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}

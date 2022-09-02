@@ -14,7 +14,6 @@ const Service = () => {
               Handshake infographic mass market crowdfunding iteration.
             </span>
           </div>
-
           <article className={styles.servicesContainer}>
             {Data.map((item) => (
               <div key={item.id} className={styles.container}>
