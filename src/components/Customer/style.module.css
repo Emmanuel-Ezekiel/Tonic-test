@@ -114,7 +114,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 56px;
+    justify-content: space-between;
     width: 493px;
     height: 479px;
     margin-top: 62px;
@@ -135,6 +135,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+
 
 .ContentMark span {
     font-family: 'Open Sans', sans-serif;
@@ -196,10 +198,10 @@
 }
 
 
-.CustomerDescription button {
+.heroBtn {
     height: 60px;
     width: 210px;
-    padding: 16px 56px;
+    /* padding: 16px 56px; */
     border-radius: 56px;
     background: #0A2640;
     border: 2px solid #0A2640;
@@ -209,4 +211,5 @@
     line-height: 28px;
     color: #FFFFFF;
     cursor: pointer;
+
 }

@@ -48,7 +48,7 @@ const Customer = () => {
                 </div>
               ))}
             </div>
-            <button>Start now</button>
+            <button className={styles.heroBtn}>Start now</button>
           </div>
         </div>
         <div className={styles.container2}>
