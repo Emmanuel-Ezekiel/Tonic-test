@@ -195,7 +195,8 @@
     height: 36px;
 }
 
-.button {
+
+.CustomerDescription button {
     height: 60px;
     width: 210px;
     padding: 16px 56px;
@@ -208,5 +209,4 @@
     line-height: 28px;
     color: #FFFFFF;
     cursor: pointer;
-
 }

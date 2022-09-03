@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Open+Sans:wght@400;700&display=swap');
+
+.footer {
+    width: 100vw;
+    height: 949px;
+    background: #ffffff;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.CTA {
+    height: 391px;
+    width: 1200px;
+    border-radius: 12px;
+    background: #0A2640;
+    position: relative;
+    overflow-x: hidden;
+    margin-top: -5px;
+}
+
+
+.divider {
+    position: absolute;
+    width: 1293px;
+    height: 1293px;
+    overflow-x: hidden;
+    left: 38.83%;
+    right: -46.58%;
+    top: -269.57%;
+    bottom: 38.87%;
+}
+
+.circle {
+    border-radius: 50%;
+    background: #1C3D5B;
+    width: 100%;
+    height: 100%;
+}
+
+.CTAHeader {
+    position: absolute;
+    z-index: 99;
+    height: 247px;
+    width: 716px;
+    margin: 72px 242px;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+
+.CTAHeader span {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+    height: 139px;
+    width: 716px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.CTAForm {
+    height: 60px;
+    width: 604px;
+    margin: 0 56px;
+}
+
+.CTAForm  form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CTAForm  input{
+    height: 56px;
+    width: 370px;
+    border-radius: 240px;
+    font-size: 16px;
+    padding: 12px 32px;
+}
+
+.CTAForm ::placeholder {
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+font-family: 'Open Sans', sans-serif;
+color: #000000;
+}
+
+.CTAForm  button{
+    height: 60px;
+    width: 210px;
+    border-radius: 56px;
+    cursor: pointer;
+    background: #65E4A3;
+    border: 2px solid #65E4A3;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+    color: #0A2640;
+    font-family: 'Open Sans', sans-serif;
+        
+}
+
+.footerContainer {
+    height: 474px;
+    width: 100vw;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.Footerlist {
+    height: 240px;
+    width: 642px;
+    margin-left: 179px;
+    display: flex;
+    gap: 96px;
+    position: relative;
+}
+
+.Footerlist button {
+    position: absolute;
+    width: 72px;
+    height: 30px;
+    background: #65E4A3;
+    border-radius: 120px;
+    top: 58%;
+    left: 51%;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 28px;
+    color: #0A2640;
+}
+
+.footerCon {
+    width: 1200px;
+    display: flex;
+    height: 270px;
+    margin: 100px;
+}
+
+.Logo {
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+}
+
+.Logo p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #777777;
+    height: 84px;
+    width: 300px;
+    margin-top: 40px;
+}
+.Logo img {
+    height: 41px;
+    width: 156px;
+}
+.Logo span {
+    height: 41px;
+    width: 156px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #777777;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 64px;
+}
+
+.footListCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footheader {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+} 
+
+.footList {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+    height: 172px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

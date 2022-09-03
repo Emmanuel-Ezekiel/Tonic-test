@@ -5,6 +5,7 @@ import Customer from "../../components/Customer/index";
 import Testimonal from "../../components/Testimonal/index";
 import Connect from "../../components/Connect/index";
 import Blog from "../../components/Blog/index";
+import Footer from "../../components/Footer/index";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
           <Testimonal/>
           <Connect/>
           <Blog/>
+          <Footer/>
       </main>
     </>
   )

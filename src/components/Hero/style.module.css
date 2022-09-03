@@ -12,7 +12,7 @@ section {
 }
 
 .divider {
-    position: absolute;
+    position: relative;
     width: 1293px;
     height: 1293px;
     overflow-x: hidden;
@@ -23,7 +23,7 @@ section {
     background: #F1F1F1;
     width: 100%;
     height: 100%;
-    position: relative;
+    position: absolute;
     right: -777px;
     top: -789px;
 }
