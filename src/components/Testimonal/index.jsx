@@ -15,14 +15,14 @@ import { Pagination, Navigation } from "swiper";
 
 
 const Testimonal = () => {
-    const settings = {
-        className: "center",
-        centerMode: true,
-        infinite: true,
-        centerPadding: "60px",
-        slidesToShow: 3,
-        speed: 500
-      };
+    // const settings = {
+    //     className: "center",
+    //     centerMode: true,
+    //     infinite: true,
+    //     centerPadding: "60px",
+    //     slidesToShow: 3,
+    //     speed: 500
+    //   };
 
   return (
     <>

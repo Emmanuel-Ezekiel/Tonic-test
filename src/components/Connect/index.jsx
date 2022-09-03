@@ -10,7 +10,7 @@ const Connect = () => {
     <>
       <section className={styles.connect}>
         <div className={styles.ImageContainer}>
-            <img src={Image} alt="image" />
+            <img src={Image} alt="Connectimage" />
         </div>
         <div className={styles.DescContainer}>
             <div className={styles.Text}>
