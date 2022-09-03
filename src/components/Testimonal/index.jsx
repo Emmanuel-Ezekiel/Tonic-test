@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from "./style.module.css";
-import Slider from "react-slick";
 import { Data } from "./Data";
 
 import { Swiper, SwiperSlide } from "swiper/react";
