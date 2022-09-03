@@ -8,8 +8,8 @@ const Footer = () => {
     <>
       <footer className={styles.footer}>
         <div className={styles.CTA}>
-            <div className={styles.divider}>
-                <div className={styles.circle}></div>
+            <div className={styles.divider2}>
+                <div className={styles.circle2}></div>
             </div>
             <div className={styles.CTAHeader}>
                 <span>An enterprise template to ramp up your company website</span>

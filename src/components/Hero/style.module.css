@@ -1,5 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Open+Sans&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Open+Sans&display=swap');
+
+nav {
+  width: 1200px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  margin: 56px 100px;
+  position: absolute;
+  z-index: 99;
+}
+
+
+img {
+  height: 42px;
+  width: 162px;
+  cursor: pointer;
+}
+
+.navigation {
+  height: 40px;
+  width: 419px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0A2640;
+  cursor: pointer;
+}
+
+.login {
+ height: 40px;
+ width: 128px;
+ border-radius: 24px;
+ padding: 4px 40px;
+ border: 2px solid #0A2640;
+}
 section {
     width: 100vw;
     height: 801px;
@@ -26,6 +67,10 @@ section {
     position: absolute;
     right: -777px;
     top: -789px;
+}
+
+.ema {
+    position: absolute;
 }
 
 .heroContainer {

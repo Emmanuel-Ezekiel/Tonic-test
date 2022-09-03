@@ -25,7 +25,7 @@
 }
 
 
-.divider {
+.divider2 {
     position: absolute;
     width: 1293px;
     height: 1293px;
@@ -36,7 +36,7 @@
     bottom: 38.87%;
 }
 
-.circle {
+.circle2 {
     border-radius: 50%;
     background: #1C3D5B;
     width: 100%;
