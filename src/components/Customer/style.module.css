@@ -195,17 +195,16 @@
     height: 36px;
 }
 
-.Btn {
+.button {
     height: 60px;
     width: 210px;
+    padding: 16px 56px;
     border-radius: 56px;
-    padding: 16px 56px 16px 56px;
     background: #0A2640;
     border: 2px solid #0A2640;
-    border-radius: 56px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 28px;
     color: #FFFFFF;
     cursor: pointer;
