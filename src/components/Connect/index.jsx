@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "./style.module.css";
 import Image from "../../assets/Rectangle 12702.svg";
 import { Data } from "./Data";
-import { IoTerminal } from 'react-icons/io5';
+
 
 
 const Connect = () => {
