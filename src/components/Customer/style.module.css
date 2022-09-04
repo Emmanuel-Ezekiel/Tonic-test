@@ -75,9 +75,35 @@
     gap: 19px;
 }
 
+.Chart2 {
+    width: 227px;
+    height: 340px;
+    margin: 24px 32px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.ChartGroup2 {
+    width: 179.2px;
+    height: 95.16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .ChartFlow {
     height: 227px;
     width: 170px;
+}
+
+.ChartFlow2 {
+    width: 179.42px;
+    height: 292.42px;
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .ChartFlow img {
@@ -212,4 +238,47 @@
     color: #FFFFFF;
     cursor: pointer;
 
+}
+
+.color {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #0DBBFC;
+    margin-bottom: 5px;
+}
+.color2 {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: #69E6A6;
+    margin-bottom: 5px;
+}
+.color3 {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    background: #C4C4C4;
+
+}
+
+.percent {
+    color: #000000;
+    height: 24px;
+    width: 175.44091796875px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.percent span {
+    height: 24px;
+    width: 162.5189208984375px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+   
 }

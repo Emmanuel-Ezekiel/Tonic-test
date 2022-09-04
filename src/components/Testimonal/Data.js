@@ -7,7 +7,7 @@ export const Data = [
     id: 1,
     image: Image,
     text: "Buyer buzz partner network disruptive non-disclosure agreement business",
-    postition: "Manager @ Howarts",
+    position: "Manager @ Howarts",
     name: "Albus Dumbledore",
   },
   
@@ -15,7 +15,7 @@ export const Data = [
     id: 2,
     image: Image2,
     text: "Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor.",
-    postition: "Manager @ Slytherin",
+    position: "Manager @ Slytherin",
     name: "Severus Snape",
   },
   
@@ -23,7 +23,7 @@ export const Data = [
     id: 3,
     image: Image3,
     text: "Release facebook responsive web design business model canvas seed money monetization.",
-    postition: "Team Leader @ Gryffindor",
+    position: "Team Leader @ Gryffindor",
     name: "Harry Potter",
   },
   

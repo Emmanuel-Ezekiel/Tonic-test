@@ -14,7 +14,7 @@
 .TestimonalDescription {
     width: 716px;
     height: 139px;
-    margin: 100px 534px 73px 150px;
+    /* margin: 1px 534px 73px 150px; */
 }
 
 .TestimonalDescription span {
@@ -25,9 +25,36 @@
     color: #FFFFFF;
 }
 
+.testCon {
+    width: 1150px;
+    position: relative;
+}
+
 .testimonies {
     width: 1150px;
-    border: 12px solid white;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 40px; */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin-top: 72px;
+}
+
+.slideContainer:nth-child(1)  {
+    width: 350px;
+    height: 322px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+
+}
+.slideContainer:nth-child(3)  {
+    width: 350px;
+    height: 358px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+
 }
 
 .slideContainer {
@@ -35,5 +62,85 @@
     background: #FFFFFF;
     box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
-    border: 1px solid red;
+}
+
+.list {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px;
+    
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.listCont {
+   display: flex; 
+   margin-top: 40px;
+   align-items: center;
+   width: 270px;
+   height: 58px;
+   justify-content: flex-start;
+}
+
+.listCont img {
+    height: 58px;
+    width: 58px;
+    margin-right: 25px;
+}
+
+
+.Buttons {
+    position: absolute;
+    width: 172px;
+    height: 73px;
+    top: 13%;
+    left: 85%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.Buttons button {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.arrow {
+    width: 36px;
+    height: 39px;
+}
+
+
+.Imag {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+   
+}
+
+.name {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    height: 22px;
+    width: 196px;
+}
+
+.position {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    color: #0A2640;
 }
